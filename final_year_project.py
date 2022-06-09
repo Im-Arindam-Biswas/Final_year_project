@@ -10,12 +10,13 @@ from tkinter import filedialog
 from playsound import playsound
 import time
 
+pomodoro_time = 25
+short_time = 5
+long_time = 15
 #--------------------Main Class--------------------
 class PomodoroTimer:
 
-    pomodoro_time = 25
-    short_time = 5
-    long_time = 15
+ 
 
     def __init__(self):
         self.root = tk.Tk()
